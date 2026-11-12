@@ -1,4 +1,10 @@
-St. John's Hospital v2.5
+St. John's Hospital v2.8
 
-Replace index.html on GitHub Pages. Keep your existing blake-portrait.png in the repository root.
-Changes: Bonnie interview replaced verbatim from user text; standalone stage directions italicized; duplicate Patients label replaced with disabled All Patients category selector.
+Upload index.html to the root of the existing GitHub Pages repository, overwriting the previous index.html.
+Keep blake-portrait.png in the same folder.
+
+Changes:
+- Hospital Contact: Outskirts of the Twin Cities, Minnesota, U.S.A.
+- Patient Information: Westfield University · Political Science added.
+
+Other site content and functionality are unchanged.
