@@ -1,6 +1,5 @@
-St. John's Hospital — Blake v2.3
+St. John's Hospital v2.4
 
-1. Upload index.html to the root of your GitHub Pages repository.
-2. Upload your portrait image as blake-portrait.png to the same folder.
-3. Keep the extension exactly .png (lowercase).
-4. Other website functions and transcript content remain unchanged from v2.2.
+Upload index.html to the same GitHub Pages repository root, replacing the older file. Keep your blake-portrait.png in the same directory.
+
+Changes: Patients picture + profile info + physician comment section are one scrollable page; Session Notes / Records use the full document viewport. Other tabs and Windows 95 taskbar remain unchanged.
