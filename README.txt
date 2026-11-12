@@ -1,5 +1,4 @@
-St. John's Hospital v2.4
+St. John's Hospital v2.5
 
-Upload index.html to the same GitHub Pages repository root, replacing the older file. Keep your blake-portrait.png in the same directory.
-
-Changes: Patients picture + profile info + physician comment section are one scrollable page; Session Notes / Records use the full document viewport. Other tabs and Windows 95 taskbar remain unchanged.
+Replace index.html on GitHub Pages. Keep your existing blake-portrait.png in the repository root.
+Changes: Bonnie interview replaced verbatim from user text; standalone stage directions italicized; duplicate Patients label replaced with disabled All Patients category selector.
