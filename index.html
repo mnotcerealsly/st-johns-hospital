@@ -168,7 +168,7 @@ history:`<h2 class="record-heading">Records Index</h2><p class="tab-label">St. J
 function showRecord(tab){recordBody.innerHTML=recordViews[tab]||recordViews.patient;recordBody.classList.toggle('photo-page',tab==='patient');document.querySelectorAll('[data-record-tab]').forEach(b=>b.classList.toggle('selected',b.dataset.recordTab===tab));recordScroll.scrollTop=0;recordStatus.textContent=tab==='session'?'Interview transcript · complete':tab==='history'?'Records directory':'1 record selected';recordBody.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>showRecord(b.dataset.go)))}document.querySelectorAll('[data-record-tab]').forEach(b=>b.addEventListener('click',()=>showRecord(b.dataset.recordTab)));showRecord('patient');
 const hospitalPages={
 home:`<h2>Welcome to St. John's Hospital</h2>
-<p>성 요한 병원은 미네소타 지역 주민과 가족을 위한 정신건강 진료 및 입원 치료 서비스를 제공합니다. 저희 의료진은 환자 개개인의 필요를 존중하며, 안정된 환경에서의 회복과 지속적인 치료를 돕고자 합니다.</p>
+<p>St. John's Hospital은 미네소타 지역 주민과 가족을 위한 정신건강 진료 및 입원 치료 서비스를 제공합니다. 저희 의료진은 환자 개개인의 필요를 존중하며, 안정된 환경에서의 회복과 지속적인 치료를 돕고자 합니다.</p>
 <p>본 병원에서는 정신건강 평가, 개별 상담, 입원 진료와 가족 상담을 제공하고 있습니다. 진료 및 입원에 관한 자세한 사항은 접수처로 문의해 주시기 바랍니다.</p>
 <hr>
 <h3>Visitor Information</h3>
@@ -184,7 +184,7 @@ about:`<h2>About St. John's Hospital</h2>
 <h3>Medical Staff</h3>
 <p>정신건강의학 전문의, 간호 인력 및 상담 담당자가 협력하여 환자의 치료와 병동 생활을 지원합니다.</p>
 <hr>
-<p class="retro-small">보다 자세한 안내는 병원 접수처로 문의해 주십시오.</p>`,
+<p>보다 자세한 안내는 병원 접수처로 문의해 주십시오.</p>`,
 programs:`<h2>Programs &amp; Services</h2>
 <p>St. John's Hospital은 환자의 상태와 담당 의료진의 판단에 따라 다음과 같은 서비스를 제공합니다.</p>
 <hr>
