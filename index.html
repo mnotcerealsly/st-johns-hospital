@@ -83,6 +83,13 @@
 .nurse-attention .attention-copy{font-size:12px;line-height:1.45;color:#777;margin:0;overflow-wrap:anywhere}
 @media(max-width:650px){.nurse-attention{margin:8px 9px 12px;padding:9px 10px}}
 
+/* v3.1: prevent the last nurse-note margin collapsing into the scroll viewport.
+   Keep the entire patient profile, including the VIP note and its lower bevel,
+   inside the gray scrollable document. */
+.record-page.photo-page{display:flow-root;height:auto;min-height:100%;padding-bottom:16px;background:#c0c0c0}
+.photo-page .nurse-attention{margin-bottom:0}
+@media(max-width:650px){.record-page.photo-page{padding-bottom:14px}}
+
 /* v2.5: classic disabled Win95 patient-category combo box; purely decorative. */
 .patient-category{display:flex;align-items:center;gap:8px;color:#555;font-size:13px;white-space:nowrap}
 .win95-select-wrap{position:relative;display:inline-block;min-width:144px;height:29px;border:2px solid;border-color:#808080 #fff #fff #808080;background:#d0d0d0;box-shadow:inset 1px 1px #444}
